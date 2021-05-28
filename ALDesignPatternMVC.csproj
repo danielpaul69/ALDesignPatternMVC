@@ -133,24 +133,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="MDP.cs">
-      <DependentUpon>MdpModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MdpModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MdpModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MdpModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MdpModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="MdpModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>MdpModel.edmx</DependentUpon>
-    </Compile>
     <Compile Include="Models\MotDePasseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -163,25 +145,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="MdpModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>MdpModel.Context.cs</LastGenOutput>
-      <DependentUpon>MdpModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="MdpModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>MdpModel.edmx</DependentUpon>
-      <LastGenOutput>MdpModel.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="MdpModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>MdpModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="MdpModel.edmx.diagram">
-      <DependentUpon>MdpModel.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

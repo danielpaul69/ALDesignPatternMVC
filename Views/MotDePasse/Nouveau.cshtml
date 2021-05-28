@@ -1,0 +1,22 @@
+﻿@model ALDesignPatternMVC.Models.MotDePasseModel
+
+@{
+    ViewBag.Title = "Nouveau";
+}
+
+<h2>Nouveau</h2>
+<form action="/Valider">
+    <div class="form-group">
+        <label for="site">Site</label>
+        @Html.TextBoxFor(x=>x.Login, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="login">Login</label>
+        <input type="text" class="form-control" id="login" placeholder="Login">
+    </div>
+    <div class="form-group">
+        <label for="motDePasse">Mot de passe</label>
+        <input type="text" class="form-control" id="motDePasse" placeholder="Mot de passe">
+    </div>
+    <button type="submit" class="btn btn-primary">Valider</button>
+</form>
